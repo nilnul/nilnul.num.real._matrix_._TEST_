@@ -1,0 +1,1 @@
+global using Q = nilnul.num.quotient_.DenomNonnil;

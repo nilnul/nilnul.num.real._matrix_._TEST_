@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Diagnostics;
 
@@ -33,7 +33,7 @@ namespace nilnul.num.real.matrix._test.op_.unary_.elmentary_.rowwise_.shuffle_.b
 				m,row1,row2
 			);
 
-			var bySwallowed= nilnul.num.real.matrix.op_.unary_.elementary_.rowwise_.shuffle_._ByShearX._New_assumeValid(
+			var bySwallowed= nilnul.num.real.matrix.op_.rowspan_._swap_._BySlopeX._New_assumeValid(
 				m,row1,row2
 			);
 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32126.315
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ref", "ref", "{1BC129E2-EA41-4525-B29F-C3FCE7C4097F}"
 EndProject
@@ -26,6 +26,9 @@ Global
 		debug2pub|Any CPU = debug2pub|Any CPU
 		debug2pub|Mixed Platforms = debug2pub|Mixed Platforms
 		debug2pub|x86 = debug2pub|x86
+		Dev2nuget|Any CPU = Dev2nuget|Any CPU
+		Dev2nuget|Mixed Platforms = Dev2nuget|Mixed Platforms
+		Dev2nuget|x86 = Dev2nuget|x86
 		hbue__deptS_ccpOrg___release|Any CPU = hbue__deptS_ccpOrg___release|Any CPU
 		hbue__deptS_ccpOrg___release|Mixed Platforms = hbue__deptS_ccpOrg___release|Mixed Platforms
 		hbue__deptS_ccpOrg___release|x86 = hbue__deptS_ccpOrg___release|x86
@@ -41,6 +44,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
+		Sym2nuget|Any CPU = Sym2nuget|Any CPU
+		Sym2nuget|Mixed Platforms = Sym2nuget|Mixed Platforms
+		Sym2nuget|x86 = Sym2nuget|x86
 		Symbol|Any CPU = Symbol|Any CPU
 		Symbol|Mixed Platforms = Symbol|Mixed Platforms
 		Symbol|x86 = Symbol|x86
@@ -67,6 +73,12 @@ Global
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.debug2pub|Mixed Platforms.Build.0 = Debug|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.debug2pub|x86.ActiveCfg = Debug|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.debug2pub|x86.Build.0 = Debug|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Dev2nuget|Any CPU.ActiveCfg = Dev2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Dev2nuget|Any CPU.Build.0 = Dev2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Dev2nuget|Mixed Platforms.ActiveCfg = Dev2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Dev2nuget|Mixed Platforms.Build.0 = Dev2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Dev2nuget|x86.ActiveCfg = Dev2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Dev2nuget|x86.Build.0 = Dev2nuget|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.hbue__deptS_ccpOrg___release|Any CPU.ActiveCfg = Debug|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.hbue__deptS_ccpOrg___release|Any CPU.Build.0 = Debug|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.hbue__deptS_ccpOrg___release|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -97,6 +109,12 @@ Global
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Release|x86.ActiveCfg = Release|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Release|x86.Build.0 = Release|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Sym2nuget|Any CPU.ActiveCfg = Sym2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Sym2nuget|Any CPU.Build.0 = Sym2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Sym2nuget|Mixed Platforms.ActiveCfg = Sym2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Sym2nuget|Mixed Platforms.Build.0 = Sym2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Sym2nuget|x86.ActiveCfg = Sym2nuget|Any CPU
+		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Sym2nuget|x86.Build.0 = Sym2nuget|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Symbol|Any CPU.ActiveCfg = Symbol|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Symbol|Any CPU.Build.0 = Symbol|Any CPU
 		{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}.Symbol|Mixed Platforms.ActiveCfg = Symbol|Any CPU
@@ -127,6 +145,12 @@ Global
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.debug2pub|Mixed Platforms.Build.0 = Debug|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.debug2pub|x86.ActiveCfg = Debug|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.debug2pub|x86.Build.0 = Debug|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Dev2nuget|Any CPU.ActiveCfg = Dev2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Dev2nuget|Any CPU.Build.0 = Dev2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Dev2nuget|Mixed Platforms.ActiveCfg = Dev2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Dev2nuget|Mixed Platforms.Build.0 = Dev2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Dev2nuget|x86.ActiveCfg = Dev2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Dev2nuget|x86.Build.0 = Dev2nuget|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.hbue__deptS_ccpOrg___release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.hbue__deptS_ccpOrg___release|Any CPU.Build.0 = Release|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.hbue__deptS_ccpOrg___release|Mixed Platforms.ActiveCfg = Release|Any CPU
@@ -157,6 +181,12 @@ Global
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Release|x86.ActiveCfg = Release|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Release|x86.Build.0 = Release|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Sym2nuget|Any CPU.ActiveCfg = Sym2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Sym2nuget|Any CPU.Build.0 = Sym2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Sym2nuget|Mixed Platforms.ActiveCfg = Sym2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Sym2nuget|Mixed Platforms.Build.0 = Sym2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Sym2nuget|x86.ActiveCfg = Sym2nuget|Any CPU
+		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Sym2nuget|x86.Build.0 = Sym2nuget|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Symbol|Any CPU.ActiveCfg = Symbol|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Symbol|Any CPU.Build.0 = Symbol|Any CPU
 		{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}.Symbol|Mixed Platforms.ActiveCfg = Symbol|Any CPU

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 
@@ -18,7 +18,7 @@ namespace nilnul.num.real.matrix._test.square_
 
 			);
 
-			var d = nilnul.num.real.matrix_.square.aggregate_._DeterminantX.Determinant(square);
+			var d = nilnul.num.real.matrix_.sq.aggregate_._DeterminantX.Determinant(square);
 
 			Debug.WriteLine(d);
 
