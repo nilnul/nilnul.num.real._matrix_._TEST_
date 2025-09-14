@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
   <!--<Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />-->
   <PropertyGroup>
     <Deterministic>false</Deterministic>
@@ -16,7 +16,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>nilnul.num.real.matrix</RootNamespace>
     <AssemblyName>nilnul.num.real._matrix_._TEST_</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\11.0\UITestExtensionPackages</ReferencePath>
@@ -73,53 +73,53 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
+      <HintPath>packages\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._integer_._LIB_.1.1.250329.142625\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num._integer_._LIB_.1.1.250329.142625\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.250804.165609\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num._quotient_._LIB_.1.1.250907.91443\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.250804.103333\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num._real_._LIB_.2.1.250804.103333\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.250417.141758\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._bit_._LIB_.1.1.250417.141758\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.250804.164855\lib\net48\nilnul._num_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._num_._LIB_.1.1.250804.164855\lib\net48\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.250804.164856\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
+      <HintPath>packages\nilnul._num_._LINQ_.1.1.250804.164856\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.250805.132413\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._obj_._LIB_.1.2.250907.70202\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.250424.44336\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._rel_._LIB_.1.2.250424.44336\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.250118.94723\lib\net48\nilnul._set_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._set_._LIB_.1.1.250118.94723\lib\net48\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.250728.52243\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._txt_._LIB_.1.1.250828.14455\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -134,10 +134,10 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\_nilnul_._LIB_.1.1.241016.32119\lib\net48\_nilnul_._LIB_.dll</HintPath>
+      <HintPath>packages\_nilnul_._LIB_.1.1.250821.144403\lib\net48\_nilnul_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\_nilnul_._LINQ_.1.1.241016.32253\lib\net48\_nilnul_._LINQ_.dll</HintPath>
+      <HintPath>packages\_nilnul_._LINQ_.1.1.250821.144403\lib\net48\_nilnul_._LINQ_.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -146,16 +146,16 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="nilnul0\num\real\matrix_\sq\duo\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq_\bi\" />
+    <Folder Include="nilnul0\num\real\mat_\sq\factorize_\" />
+    <Folder Include="nilnul0\num\real\mat_\sq_\vanity\" />
     <Folder Include="nilnul0\num\real\vecs_\started\" />
     <Folder Include="nilnul0\num\real\vecs_\started_\" />
     <Folder Include="op_\rowspan_\indent_\std\" />
     <Folder Include="op_\rowspan_\indent_\std_\" />
     <Folder Include="op_\rowwise_\" />
-    <Folder Include="rows_\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bi_\mul\at_\col9row\UnitTest1.cs" />
     <Compile Include="bi_\mul\at_\nil8mid\UnitTest1.cs" />
     <Compile Include="bi_\offset\UnitTest1.cs" />
     <Compile Include="eg_\square\determinant\UnitTest1.cs" />
@@ -167,14 +167,16 @@
     <Compile Include="nilnul0\num\integer\matrix\co_\sociable\multi\UnitTest1 - Copy.cs" />
     <Compile Include="nilnul0\num\integer\matrix\co_\sociable\multi\UnitTest1.cs" />
     <Compile Include="nilnul0\num\integer\matrix\Eq.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\hollow\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\be_\normal\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\calc\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\dich_\qr\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\eigen_\complex\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\bi_\antisym\sqrt\ofAxic\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\bi_\fibonacci\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\vander\determinant\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\hollow\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq\be_\normal\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq\calc\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq\dich_\qr\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq\eigen_\complex\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq_\bi_\antisym\sqrt\ofAxic\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq_\bi_\fibonacci\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq_\ii\factorize_\svd\UnitTest1 - Copy.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq_\ii\factorize_\svd\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq_\vander\determinant\UnitTest1.cs" />
     <Compile Include="nilnul0\num\real\vecs_\indep\op_\schmidt\UnitTest1.cs" />
     <Compile Include="nilnul0\num\real\vecs_\indep\op_\_schmidt_\by_\BySquare.cs" />
     <Compile Include="nilnul0\num\real\vecs_\indep\op_\_schmidt_\by_\sq\UnitTest1.cs" />
@@ -182,9 +184,12 @@
     <Compile Include="op_\rowspan_\indent_\canon\UnitTest1.cs" />
     <Compile Include="Properties\GlobalUsing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\op\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq_\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\mat_\sq\op\UnitTest1.cs" />
     <Compile Include="re_\pseudoinv\UnitTest1.cs" />
+    <Compile Include="to_\factorize_\svd\imgCompress\UnitTest1 - Copy.cs" />
+    <Compile Include="to_\factorize_\svd\UnitTest1 - Copy.cs" />
+    <Compile Include="to_\factorize_\svd\UnitTest1.cs" />
     <Compile Include="twoSquare\duo\op_\multi\UnitTest1.cs" />
     <Compile Include="_learn\vec\UnitTest1.cs" />
   </ItemGroup>
@@ -193,13 +198,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\_LIB_\nilnul.num.real._matrix_._LIB_.csproj">
+    <None Include="License.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_LIB_%28Git\nilnul.num.real._matrix_._LIB_.csproj">
       <Project>{2dd39ba3-1237-447a-8c5a-4eea25e1f929}</Project>
       <Name>nilnul.num.real._matrix_._LIB_</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="License.txt" Pack="true" PackagePath="" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -209,12 +214,12 @@
     <!--<Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
     <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
     <Error Condition="!Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
-    <Error Condition="!Exists('..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.props'))" />
-    <Error Condition="!Exists('..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.targets'))" />-->
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />-->
   </Target>
   <!--<Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />-->
   <Import Project="packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
-  <Import Project="..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

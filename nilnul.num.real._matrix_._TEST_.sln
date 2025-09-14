@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dll", "dll", "{D084E48B-888
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_ref.", "_ref.", "{007537E2-9E74-48D1-9D08-47FC2D04C581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nilnul.num.real._matrix_._LIB_", "..\_LIB_\nilnul.num.real._matrix_._LIB_.csproj", "{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nilnul.num.real._matrix_._LIB_", "..\_LIB_(Git\nilnul.num.real._matrix_._LIB_.csproj", "{2DD39BA3-1237-447A-8C5A-4EEA25E1F929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
