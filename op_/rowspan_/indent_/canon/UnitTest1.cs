@@ -16,7 +16,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 
 				var m1 =(Q[,] ) m.Clone();
 
-				num.real.matrix.op_.rowspan_._GaussianX.Standardize(m);
+				nilnul.num.real.matrix.op_.indent_._EchelonX.EchelonForRank(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -34,7 +34,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 
 				var m1 =(Q[,] ) m.Clone();
 
-				num.real.matrix.op_.rowspan_._GaussianX.Standardize(m);
+				nilnul.num.real.matrix.op_.indent_._EchelonX.EchelonForRank(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -55,7 +55,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 					{ 1}
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(ref m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -76,7 +76,10 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 					{ 1}
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				//num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate
+					num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate
+				
+					(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -96,7 +99,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 					{0, 0}
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -116,7 +119,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 					{0, 1}
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -141,7 +144,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 					{1}
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -168,7 +171,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 					
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -195,7 +198,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 	
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -232,7 +235,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 				};;
 
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -269,7 +272,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Standardize(m);
+				nilnul.num.real.matrix.op_.indent_._EchelonX.EchelonForRank(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -302,7 +305,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -337,7 +340,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -373,7 +376,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -408,7 +411,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 
 				};;
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(
@@ -443,9 +446,9 @@ namespace nilnul.num.real.matrix.op_.rowspan_.std
 
 				};
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m1);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m1);
 
-				num.real.matrix.op_.rowspan_._GaussianX.Canonical(m);
+				num.real.matrix.op_.indent_.echelon_._RegulateX.Regulate(ref m);
 
 				Assert.IsTrue(
 					num.real.matrix.Eq8quotient.Singleton.Equals(

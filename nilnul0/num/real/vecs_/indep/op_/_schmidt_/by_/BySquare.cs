@@ -35,7 +35,10 @@ namespace nilnul.num.real.vecs_.indep.op_._schmidt_.by_
 
 			}
 
-			var std = nilnul.num.real.matrix.op_.rowspan_._GaussianX.Standardize(
+			var std =
+				//nilnul.num.real.matrix.op_._canon_.by_._GaussianX.Standardize
+				nilnul.num.real.matrix.op_.indent_._EchelonX.EchelonForRank
+				(ref 
 				t
 			);
 

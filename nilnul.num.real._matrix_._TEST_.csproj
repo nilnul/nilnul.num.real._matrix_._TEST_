@@ -86,7 +86,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.num._integer_._LIB_.1.1.250329.142625\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
@@ -95,10 +95,10 @@
       <HintPath>packages\nilnul.num._quotient_._LIB_.1.1.250907.91443\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._real_._LIB_.2.1.250804.103333\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num._real_._LIB_.2.1.251005.101051\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._bit_._LIB_.1.1.250417.141758\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._bit_._LIB_.1.1.250927.140056\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
@@ -110,13 +110,13 @@
       <HintPath>packages\nilnul._num_._LINQ_.1.1.250804.164856\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._obj_._LIB_.1.2.250907.70202\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._obj_._LIB_.1.2.251007.135351\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._rel_._LIB_.1.2.250424.44336\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._set_._LIB_.1.1.250118.94723\lib\net48\nilnul._set_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._set_._LIB_.1.1.250929.80601\lib\net48\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._txt_._LIB_.1.1.250828.14455\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
@@ -134,10 +134,10 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\_nilnul_._LIB_.1.1.250821.144403\lib\net48\_nilnul_._LIB_.dll</HintPath>
+      <HintPath>packages\_nilnul_._LIB_.1.1.250926.84614\lib\net48\_nilnul_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\_nilnul_._LINQ_.1.1.250821.144403\lib\net48\_nilnul_._LINQ_.dll</HintPath>
+      <HintPath>packages\_nilnul_._LINQ_.1.1.250926.84614\lib\net48\_nilnul_._LINQ_.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -146,13 +146,15 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="nilnul0\num\real\mat_\sq\factorize_\" />
-    <Folder Include="nilnul0\num\real\mat_\sq_\vanity\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq\eigen\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\sym_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\vanity\" />
     <Folder Include="nilnul0\num\real\vecs_\started\" />
     <Folder Include="nilnul0\num\real\vecs_\started_\" />
     <Folder Include="op_\rowspan_\indent_\std\" />
     <Folder Include="op_\rowspan_\indent_\std_\" />
     <Folder Include="op_\rowwise_\" />
+    <Folder Include="to_\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bi_\mul\at_\col9row\UnitTest1.cs" />
@@ -160,23 +162,34 @@
     <Compile Include="bi_\offset\UnitTest1.cs" />
     <Compile Include="eg_\square\determinant\UnitTest1.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="factorize_\qr\verify\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\lu\verify\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\lu\UnitTest1.cs" />
+    <Compile Include="factorize_\svd\verify\UnitTest1 - Copy.cs" />
     <Compile Include="grid\co_\conform\UnitTest1.cs" />
+    <Compile Include="grid_\half9half\UnitTest1.cs" />
+    <Compile Include="kernel\eigen\UnitTest1 - Copy.cs" />
+    <Compile Include="kernel\UnitTest1.cs" />
     <Compile Include="learn\UnitTest1.cs" />
     <Compile Include="mosaic\of_\partition\UnitTest1.cs" />
     <Compile Include="mosaic_\nongrid_\eg\UnitTest1.cs" />
     <Compile Include="nilnul0\num\integer\matrix\co_\sociable\multi\UnitTest1 - Copy.cs" />
     <Compile Include="nilnul0\num\integer\matrix\co_\sociable\multi\UnitTest1.cs" />
     <Compile Include="nilnul0\num\integer\matrix\Eq.cs" />
-    <Compile Include="nilnul0\num\real\mat_\hollow\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq\be_\normal\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq\calc\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq\dich_\qr\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq\eigen_\complex\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq_\bi_\antisym\sqrt\ofAxic\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq_\bi_\fibonacci\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq_\ii\factorize_\svd\UnitTest1 - Copy.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq_\ii\factorize_\svd\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq_\vander\determinant\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\hollow\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\be_\normal\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\calc\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\dich_\qr\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\eigen_\complex\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_eigen_\polynom\be_\cayley\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\antisym\sqrt\ofAxic\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\fibonacci\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem_\oblique\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii\factorize_\svd\UnitTest1 - Copy.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii\factorize_\svd\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\orthonorm\factorize_\IReflections.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\vander\determinant\UnitTest1.cs" />
     <Compile Include="nilnul0\num\real\vecs_\indep\op_\schmidt\UnitTest1.cs" />
     <Compile Include="nilnul0\num\real\vecs_\indep\op_\_schmidt_\by_\BySquare.cs" />
     <Compile Include="nilnul0\num\real\vecs_\indep\op_\_schmidt_\by_\sq\UnitTest1.cs" />
@@ -184,12 +197,12 @@
     <Compile Include="op_\rowspan_\indent_\canon\UnitTest1.cs" />
     <Compile Include="Properties\GlobalUsing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq_\UnitTest1.cs" />
-    <Compile Include="nilnul0\num\real\mat_\sq\op\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\op\UnitTest1.cs" />
     <Compile Include="re_\pseudoinv\UnitTest1.cs" />
-    <Compile Include="to_\factorize_\svd\imgCompress\UnitTest1 - Copy.cs" />
-    <Compile Include="to_\factorize_\svd\UnitTest1 - Copy.cs" />
-    <Compile Include="to_\factorize_\svd\UnitTest1.cs" />
+    <Compile Include="factorize_\svd\imgCompress\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\svd\verify\NewFolder1\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\svd\verify\UnitTest1.cs" />
     <Compile Include="twoSquare\duo\op_\multi\UnitTest1.cs" />
     <Compile Include="_learn\vec\UnitTest1.cs" />
   </ItemGroup>
