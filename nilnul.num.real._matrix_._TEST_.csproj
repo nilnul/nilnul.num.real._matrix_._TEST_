@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <!--<Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />-->
+  <PropertyGroup>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2043BEB0-C3D8-4A78-99CF-D30D1FD1EA39}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.num.real.matrix</RootNamespace>
+    <AssemblyName>nilnul.num.real._matrix_._TEST_</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\11.0\UITestExtensionPackages</ReferencePath>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Symbol|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Symbol\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Dev2nuget|AnyCPU'">
+    <OutputPath>bin\Dev2nuget\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sym2nuget|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Sym2nuget\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul.num._integer_._LIB_.1.1.251218.91104\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul.num._quotient_._LIB_.1.1.251218.34603\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul.num._real_._LIB_.2.1.251218.35034\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._bit_._LIB_.1.1.251122.90106\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._discrete_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._discrete_._LIB_.1.0.251212.133353\lib\net48\nilnul._discrete_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._num_._LIB_.1.1.251218.111619\lib\net48\nilnul._num_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._num_._LINQ_.1.1.251213.151525\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._obj_._LIB_.1.2.251218.133008\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._rel_._LIB_.1.2.251026.114443\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._set_._LIB_.1.1.251123.62519\lib\net48\nilnul._set_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\nilnul._txt_._LIB_.1.1.250828.14455\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\_nilnul_._LIB_.1.1.250926.84614\lib\net48\_nilnul_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>packages\_nilnul_._LINQ_.1.1.250926.84614\lib\net48\_nilnul_._LINQ_.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="nilnul0\num\matrix_\sq_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\sym_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\tridiag_\toeplitz_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\vanity\" />
+    <Folder Include="nilnul0\num\real\matrix_\vent_\indep\" />
+    <Folder Include="nilnul0\num\real\vecs_\started\" />
+    <Folder Include="nilnul0\num\real\vecs_\started_\" />
+    <Folder Include="pred_\rudic_\homo_\col_\equat_\invertible\slv\" />
+    <Folder Include="rows_\orthonorm\" />
+    <Folder Include="to_\" />
+    <Folder Include="_this\literature_\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bi_\mul\at_\col9row\UnitTest1.cs" />
+    <Compile Include="bi_\mul\at_\nil8mid\UnitTest1.cs" />
+    <Compile Include="bi_\offset\UnitTest1.cs" />
+    <Compile Include="co_\antisize\prod\be_\ideal\UnitTest1.cs" />
+    <Compile Include="eg_\square\determinant\UnitTest1.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="factorize_\qr\verify\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\triad_\lu\nonswap\verify\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\triad_\lu\nonswap\UnitTest1.cs" />
+    <Compile Include="factorize_\svd\verify\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\triad_\lu\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\triad_\lu\UnitTest1.cs" />
+    <Compile Include="factorize_\triad_\_lu_\by_\echelon\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\triad_\_lu_\by_\echelon\UnitTest1.cs" />
+    <Compile Include="grid\co_\conform\UnitTest1.cs" />
+    <Compile Include="grid_\half9half\UnitTest1.cs" />
+    <Compile Include="kernel\eigen\UnitTest1 - Copy.cs" />
+    <Compile Include="kernel\UnitTest1.cs" />
+    <Compile Include="learn\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\alpha\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\alpha\q4\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\alpha\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\alpha\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\beta\q4\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\beta\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\beta\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\beta\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\sect2\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\sect2\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\sect2\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp1\sect1\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q15\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q14\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q12\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q10\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q9\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q8\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q7\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q6\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q5\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q4\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\alpha\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\beta\q4\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\beta\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\beta\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\review\beta\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect1\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect1\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect1\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect2\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect2\q2_\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect2\q3_\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect2\q6\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect2\q5\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect2\q4_\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q13\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q12\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q11\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q10\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q9\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q8\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q7\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q6\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q5\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q4\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect3\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect4\q7\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect4\q6\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect4\q5\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect4\q4\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect4\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect4\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect4\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect5\q7\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect5\q6\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect5\q5\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect5\q4\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect5\q3\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect5\q2\UnitTest1.cs" />
+    <Compile Include="matrix25f\zhangSaner01230\chp2\sect5\q1\UnitTest1.cs" />
+    <Compile Include="matrix25f\_content\UnitTest1.cs" />
+    <Compile Include="mosaic\of_\partition\UnitTest1.cs" />
+    <Compile Include="mosaic_\nongrid_\eg\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\integer\matrix\co_\sociable\multi\UnitTest1 - Copy.cs" />
+    <Compile Include="nilnul0\num\integer\matrix\co_\sociable\multi\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\integer\matrix\Eq.cs" />
+    <Compile Include="nilnul0\num\quotient\matrix_\sq_\toeplitz_\circulant_\rowly_\determ\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\quotient\matrix_\sq_\toeplitz_\sym_\eg_\postive\determ\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\quotient\matrix_\sq_\toeplitz_\sym_\eg_\postive\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\quotient\matrix\factors_\co_\veritas9vent\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\quotient\matrix_\sq\determ\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\quotient\matrix_\sq\op_\_invert_\by_\gauss\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\quotient\matrix_\sq_\isosize\co\op_\div_\quota_\invert\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\quotient\of_\_RndX.cs" />
+    <Compile Include="nilnul0\num\quotient_\unnil\of_\_RndX.cs" />
+    <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq\determ\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\hollow\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\be_\normal\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\calc\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\dich_\qr\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\eigen_\complex\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\sub\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_eigen_\polynom\be_\cayley\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\companion\minus\odd\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\companion_\colly\op_\invert\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\elem_\_shed\amp1row\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\antisym\sqrt\ofAxic\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\fibonacci\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem_\oblique\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii\factorize_\svd\UnitTest1 - Copy.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii\factorize_\svd\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\isosize\op_\celwise_\mul\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\orthonorm\factorize_\IReflections.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\shuffler\_determ_\by_\parity\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\triag_\upper_\invertible\op_\_invert_\by_\substitute\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\triag_\lower_\invertible\op_\_invert_\by_\substitute\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\triag_\upper_\invertible\op_\_invert_\by_\substitute\noLiteralInvert\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\tridiag_\toeplitz\_determ_\by_\expr\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\vander\determinant\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\vent\op_\_std\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\vent\to_\husk\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\vecs_\indep\op_\schmidt\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\vecs_\indep\op_\_schmidt_\by_\BySquare.cs" />
+    <Compile Include="nilnul0\num\real\vecs_\indep\op_\_schmidt_\by_\sq\UnitTest1.cs" />
+    <Compile Include="op_\kernel\UnitTest1 - Copy.cs" />
+    <Compile Include="op_\kernel\UnitTest1.cs" />
+    <Compile Include="op_\rowspan_\shuffle_\bySwallow\UnitTest1.cs" />
+    <Compile Include="op_\dent_\vent\UnitTest1.cs" />
+    <Compile Include="op_\std\UnitTest1.cs" />
+    <Compile Include="pred_\rudic_\col_\equat\slv_\plural\UnitTest1.cs" />
+    <Compile Include="pred_\rudic_\col_\equat\slv_\empty\UnitTest1.cs" />
+    <Compile Include="pred_\rudic_\col_\equat\slv_\ppt25f_\chp1_\sect1_\UnitTest1.cs" />
+    <Compile Include="pred_\rudic_\col_\equat\slv_\unique\UnitTest1.cs" />
+    <Compile Include="pred_\rudic_\col_\equat_\invertible\slv\UnitTest1.cs" />
+    <Compile Include="pred_\rudic_\col_\_equat\model_\coefs5polynom\UnitTest1 - Copy.cs" />
+    <Compile Include="pred_\rudic_\col_\_equat\model_\coefs5polynom\UnitTest1.cs" />
+    <Compile Include="pred_\rudic_\homo_\col_\equat\slv_\UnitTest1.cs" />
+    <Compile Include="pred_\rudic_\homo_\col_\equat_\invertible\ISlv.cs" />
+    <Compile Include="Properties\GlobalUsing.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\UnitTest1.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\op\UnitTest1.cs" />
+    <Compile Include="ratio\UnitTest1.cs" />
+    <Compile Include="re_\pseudoinv\UnitTest1.cs" />
+    <Compile Include="factorize_\svd\imgCompress\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\svd\verify\NewFolder1\UnitTest1 - Copy.cs" />
+    <Compile Include="factorize_\svd\verify\UnitTest1.cs" />
+    <Compile Include="twoSquare\duo\op_\multi\UnitTest1.cs" />
+    <Compile Include="_learn\vec\UnitTest1.cs" />
+    <Compile Include="nilnul0\ling\book_\HuanZhendong.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="_cfg_\linq_%28!git\test.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="License.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="matrix25f\README" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_LIB_%28Git\nilnul.num.real._matrix_._LIB_.csproj">
+      <Project>{2dd39ba3-1237-447a-8c5a-4eea25e1f929}</Project>
+      <Name>nilnul.num.real._matrix_._LIB_</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <!--<Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />-->
+  </Target>
+  <!--<Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />-->
+  <Import Project="packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
