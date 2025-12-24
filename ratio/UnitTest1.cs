@@ -7,8 +7,9 @@ namespace nilnul.num.real.matrix.ratio
 	/// eg:
 	///		<see cref="num.quotient.matrix_.sq.op_._invert_.by_._ByRatioX"/>
 	///		<see cref="num.real.matrix.pred_.rudic_.equat.ISolve"/>: x=A\B
-	///	todo: investigate	
 	/// </summary>
+	///	todo: investigate ratio
+	/// 
 	[TestClass]
 	public class UnitTest1
 	{
